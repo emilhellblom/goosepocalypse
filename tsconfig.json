@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react-native",
+    "lib": ["dom", "esnext"],
+    "moduleResolution": "node",
+    "noEmit": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "isolatedModules": false,
+    "baseUrl": "./src",
+    "paths": {
+      "*": [
+        "*",
+        "../*",
+        "pages/*",
+        "assets/*",
+        "components/*",
+        "constants/*",
+        "utils/*"
+      ],
+      "src/*": [
+        "*"
+      ]
+    }
+  }
+}
